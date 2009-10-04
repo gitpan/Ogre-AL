@@ -7,10 +7,10 @@ use warnings;
 require DynaLoader;
 our @ISA = qw(DynaLoader);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
-# use all file under lib/Ogre/AL/ here
+# use all files under lib/Ogre/AL/ here
 use Ogre::AL::Listener;
 use Ogre::AL::Sound;
 use Ogre::AL::SoundManager;
@@ -30,7 +30,7 @@ __END__
 
 =head1 NAME
 
-Ogre::AL - Perl binding for the OgreAL C++ library
+Ogre::AL - Perl binding for the OgreAL C++ 3D audio library
 
 =head1 SYNOPSIS
 
